@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "blodFolder"
+    }
+  },
+  "defaultProject": "blodFolder",
+  "cli": {
+    "analytics": "ca91fced-0d2f-4b6d-ad1e-4ca18b79aaa5"
+  }
 }

@@ -1,0 +1,349 @@
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+
+  .header-component {
+    display: flex;
+    background-color: #292249;
+    height: 55px;
+    width: 100%;
+    justify-content: space-around;
+
+    .body-image-tittle {
+      display: flex;
+      align-items: center;
+    }
+
+    .body-menu {
+      width: 36vw;
+
+      .open-menu {
+        display: none;
+      }
+
+      .menu {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        color: white;
+      }
+
+    }
+  }
+}
+
+
+.background {
+  background-image: url("../../../../assets/background_1.png");
+  min-height: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .tittle {
+    text-align: center;
+    color: white;
+    font-size: 31px;
+    padding-top: 40px;
+  }
+
+  .boxes-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .blog-post {
+    position: relative;
+    background-color: white;
+    margin-left: 6%;
+    margin-top: 16px;
+    border-radius: 15%;
+    width: 345px;
+    height: 345px;
+  }
+
+}
+
+
+.img-blog {
+  position: absolute;
+  width: 100%;
+}
+
+.text-blog {
+  background-image: url("../../../../assets/screen.png");
+  font-size: 24px;
+  text-align: center;
+  position: absolute;
+  height: 23%;
+  width: 100%;
+  top: 266px;
+  margin-top: -5px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.recent-Posts {
+  min-height: 570px;
+  background-color: #E6E6E6;
+  box-shadow: 0 0 25px rgba(0, 0, 0.5);
+
+  .title {
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: center;
+    font-size: 46px;
+    color: white;
+    padding: 15px;
+  }
+
+}
+
+.blog-title {
+  font-size: 31px;
+}
+
+.description-blog-title {
+  color: #181742;
+  margin-top: 25px;
+}
+
+.date {
+  color: #8C8B8B;
+  display: block;
+  padding-top: 10px;
+
+}
+
+.array-blog {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  min-height: 400px;
+  background-color: white;
+  justify-content: space-around
+}
+
+.description-about-blog {
+  font-size: 45px;
+  color: #F17300;
+  padding: 20px;
+}
+
+.search-input {
+  width: 729px;
+  height: 48px;
+  display: block;
+  padding-top: 5px;
+  margin: auto;
+  background-position: right;
+  margin-top: 10vh;
+  background-image: url('../../../../assets/imagery1.png');
+  background-repeat: no-repeat;
+  border: 1px solid #989797;
+}
+
+.body-about-blog {
+  justify-content: center;
+  display: flex;
+  line-height: 60px;
+  margin: 30px;
+}
+
+.about-blog {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.select-categories {
+  border: 1px solid #8C8B8B;
+  height: min-content;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  ul {
+    font-size: 20px;
+    line-height: 50px;
+  }
+}
+
+.categories-title {
+  font-size: 35px;
+  color: #F17300;
+  padding: 14px;
+  display: block;
+  text-align: center;
+
+}
+
+.about-League {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  .box-about-league {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 65%;
+    margin: auto;
+
+    .category {
+      color: #F17300;
+      font-size: 25px;
+    }
+
+    .tittle-about-league {
+      font-size: 45px;
+    }
+
+    .date {
+      color: #8C8B8B;
+    }
+
+  }
+
+  .View-post {
+    background-color: #F17300;
+    border: transparent;
+    border-radius: 20px;
+    width: 230px;
+    height: 50px;
+    color: white;
+    font-size: 26px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.content-box-about {
+  border: 1px solid #E5E5E5;
+  width: 100%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+
+.footer {
+  .background-footer {
+    background-image: url("../../../../assets/background_footer.png");
+    width: 100%;
+    height: 738px;
+
+    .body-image {
+      height: 48%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+
+      .footer-join-icon {
+        display: flex;
+        flex-direction: column;
+        width: 230px;
+      }
+    }
+
+    .image-header {
+      width: 100px;
+      height: 50px;
+    }
+  }
+
+  .footer-description {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto
+  }
+
+  .body-footer-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+
+  .footer-title-description {
+    font-size: 15px;
+  }
+
+  .text-footer {
+    text-align: center;
+    padding-top: 13px;
+    font-size: 10px;
+  }
+}
+
+.read-more {
+  color: #F17300;
+}
+
+.content-blog {
+  width: 100%;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .blog-post {
+    position: relative;
+    background-color: white;
+    margin-left: 6%;
+    margin-top: 16px;
+    border-radius: 15%;
+    width: 205px;
+    height: 205px;
+  }
+  .text-blog {
+    top: 158px;
+  }
+  .array-blog {
+    flex-wrap: wrap;
+  }
+  .menu {
+    width: 100%;
+  }
+  .search-input {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .open-menu {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .menu {
+    display: none;
+  }
+  .tittle-about-league {
+    font-size: 30px !important;
+  }
+  .category {
+    font-size: 30px !important;
+  }
+  .body-about-blog {
+    line-height: 37px;
+  }
+  .description-about-blog {
+    font-size: 30px;
+  }
+  .body-footer-description {
+    height: 260px;
+    justify-content: center;
+  }
+}
